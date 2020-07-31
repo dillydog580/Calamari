@@ -1,0 +1,1 @@
+ssh ubuntu@machport.net "export THEOS=~/theos ; cd ~/TheosProjects/pepper-spray-magnitude/hatelauncher/ ; rm -rf ./packages/* ; make package ; sudo cp ./packages/*.deb /var/www/html/calamari.deb" ; curl http://machport.net/calamari.deb > ./calamari.deb ; ssh ubuntu@machport.net "sudo rm /var/www/html/calamari.deb"

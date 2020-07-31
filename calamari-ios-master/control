@@ -1,0 +1,9 @@
+Package: com.marie.testers
+Name: Calamari-testing
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Calamari iOS Test
+Maintainer: Marie
+Author: Marie
+Section: Tweaks
